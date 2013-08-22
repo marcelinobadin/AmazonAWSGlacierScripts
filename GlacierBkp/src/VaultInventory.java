@@ -45,8 +45,8 @@ import com.amazonaws.services.sqs.model.SetQueueAttributesRequest;
 
 public class VaultInventory {
 
-    public static String snsTopicName = "*** provide topic name ***";
-    public static String sqsQueueName = "*** provide queue name ***";
+    public static String snsTopicName = "GlacierMessages";
+    public static String sqsQueueName = "GlacierQueue";
     public static String sqsQueueARN;
     public String sqsQueueURL;
     public static String snsTopicARN;
