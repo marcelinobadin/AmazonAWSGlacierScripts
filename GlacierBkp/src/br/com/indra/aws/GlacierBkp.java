@@ -1,3 +1,4 @@
+package br.com.indra.aws;
 import java.io.File;
 import java.util.List;
 
